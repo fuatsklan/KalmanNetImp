@@ -1,0 +1,29 @@
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+.env
+
+# Outputs / results
+scripts/*_results/
+scripts/*_imp_results/
+scripts/**/linear_ss_results/
+scripts/**/linear_ss_imp_results/
+scripts/**/lorenz_results/
+scripts/**/lorenz_imp_results/
+scripts/**/nclt_results/
+scripts/**/nonlinear_results/
+scripts/**/nonlinear_imp_results/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# Large datasets / archives
+nclt_data/
+*.tar.gz
+
